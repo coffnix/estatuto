@@ -7,7 +7,7 @@ TEX := pdflatex
 SRC := src
 BIN := bin
 
-DOCUMENT := estatuto
+DOCUMENT := statute
 
 all: statute
 

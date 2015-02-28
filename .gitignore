@@ -110,4 +110,4 @@ sympy-plots-for-*.tex/
 
 
 # PDF output
-*.pdf
+#*.pdf

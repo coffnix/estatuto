@@ -23,4 +23,4 @@ read: $(BIN)/$(DOCUMENT).pdf
 latex: estatuto read
 
 clean:
-	@rm -rvf *.aux *.pdf *.dvi *.log *.bbl *.blg *.lof *.lot *.out *.toc
+	@rm -rvf *.aux *.pdf *.dvi *.log *.bbl *.blg *.lof *.lot *.out *.toc bin/estatuto.pdf

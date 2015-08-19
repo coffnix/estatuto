@@ -7,11 +7,11 @@ TEX := pdflatex
 SRC := src
 BIN := bin
 
-DOCUMENT := statute
+DOCUMENT := estatuto
 
-all: statute
+all: estatuto
 
-statute: $(SRC)/$(DOCUMENT).tex
+estatuto: $(SRC)/$(DOCUMENT).tex
 	$(TEX) $^
 	$(TEX) $^
 	$(TEX) $^
@@ -20,7 +20,7 @@ statute: $(SRC)/$(DOCUMENT).tex
 read: $(BIN)/$(DOCUMENT).pdf
 	evince $^
 
-latex: statute read
+latex: estatuto read
 
 clean:
 	@rm -rvf *.aux *.pdf *.dvi *.log *.bbl *.blg *.lof *.lot *.out *.toc
